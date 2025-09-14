@@ -1,0 +1,126 @@
+{
+    "name": "𝗧𝗢𝗣𝗣𝗘𝗥𝗦 𝗨𝗦𝗘𝗥𝗕𝗢𝗧",
+    "logo": "https://ibb.co/W4vHvymH",
+    "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
+    "keywords": ["pyrogram", "userbot"],
+    "repository": "https://github.com/itzshukla/STRANGER-USERBOT2.0",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org. Required for Pyrogram client initialization.",
+            "required": true,
+            "value": "22182189"
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org. Required for Pyrogram client initialization.",
+            "required": true,
+            "value": "5e7c4088f8e23d0ab61e29ae11960bf5"
+        },
+        "SUDO_USERS": {
+            "description": "Space-separated list of user IDs who will have sudo access to the bot. Example: '123456789 987654321'.",
+            "required": true,
+            "value": "8181241262"
+        },
+        "OWNER_ID": {
+            "description": "The user ID of the bot owner. This user will have full control.",
+            "required": true,
+            "value": "8181241262"
+        },
+        "MONGO_URL": {
+            "description": "MongoDB connection URI. Obtain this from MongoDB Atlas or a similar service. Example: 'mongodb+srv://user:password@cluster.mongodb.net/database?retryWrites=true&w=majority'.",
+            "required": true,
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token from @BotFather. Required for bot functionality.",
+            "required": true,
+            "value": "8012072801:AAELfiRdBcc768aCG5M23b-7vCdBjxAIIBM"
+        },
+        "ALIVE_PIC": {
+            "description": "URL of an image to be used as the 'alive' picture for the bot. Example: 'https://example.com/image.jpg'.",
+            "required": false,
+            "value": "https://ibb.co/wFSS8sJ7"
+        },
+        "ALIVE_TEXT": {
+            "description": "Custom text to be displayed with the 'alive' picture. Leave empty for default.",
+            "required": false,
+            "value": ""
+        },
+        "PM_LOGGER": {
+            "description": "Chat ID of a private message logger group/channel. Leave empty if not needed.",
+            "required": false,
+            "value": ""
+        },
+        "LOG_GROUP": {
+            "description": "Chat ID of a group/channel for logging bot activities. Leave empty if not needed.",
+            "required": false,
+            "value": ""
+        },
+        "GIT_TOKEN": {
+            "description": "Personal access token for Git (e.g., GitHub). Required for repository operations. Leave empty if not needed.",
+            "required": false,
+            "value": ""
+        },
+        "REPO_URL": {
+            "description": "URL of the Git repository. Default is 'https://github.com'.",
+            "required": false,
+            "value": "https://github.com"
+        },
+        "BRANCH": {
+            "description": "The branch of the repository to use. Default is 'master'. Do not change unless you know what you are doing.",
+            "required": false,
+            "value": "master"
+        },
+        "STRING_SESSION1": {
+            "description": "Telethon session string for the first user account. Generate using the provided script or method.",
+            "required": true,
+            "value": "1BVtsOKIBu3Jh5-_0ETAZE-TbtkSPIZ2xQBGhIXgc0BVMOEm8K-Okhn4HGMxFhefzBev07vjaPOmW3Sp0AbmvdRbqhmxrR4EPJkAMBtkOZ5Ss1_SoU5_b8RYJb4W4Nc_fUN_fbwDvKdg4mo_KN0o_Yg90xaEPSwEuCmQUeQbRVFdgoI5tOnGeKqbIipR3O5ahd0vykXm5MHPH9jTHyhMjDlakUoGugTUDl5GQlHesj2dKHU2d-g1QgvDduOTWh4gMEo6DrrAbdhmi0k3l4iz1A4PA6Li4OG0ZL-Kkv7a6Ke2TExPY9zHIZ811knfixiwchEbkdBDOvmkSz-FgTBUbnEly1l70LDA="
+        },
+        "STRING_SESSION2": {
+            "description": "Telethon session string for the second user account. Leave empty if not using multiple accounts.",
+            "required": false,
+            "value": ""
+        },
+        "STRING_SESSION3": {
+            "description": "Telethon session string for the third user account. Leave empty if not using multiple accounts.",
+            "required": false,
+            "value": ""
+        },
+        "STRING_SESSION4": {
+            "description": "Telethon session string for the fourth user account. Leave empty if not using multiple accounts.",
+            "required": false,
+            "value": ""
+        },
+        "STRING_SESSION5": {
+            "description": "Telethon session string for the fifth user account. Leave empty if not using multiple accounts.",
+            "required": false,
+            "value": ""
+        },
+        "STRING_SESSION6": {
+            "description": "Telethon session string for the sixth user account. Leave empty if not using multiple accounts.",
+            "required": false,
+            "value": ""
+        },
+        "STRING_SESSION7": {
+            "description": "Telethon session string for the seventh user account. Leave empty if not using multiple accounts.",
+            "required": false,
+            "value": ""
+        },
+        "STRING_SESSION8": {
+            "description": "Telethon session string for the eighth user account. Leave empty if not using multiple accounts.",
+            "required": false,
+            "value": ""
+        },
+        "STRING_SESSION9": {
+            "description": "Telethon session string for the ninth user account. Leave empty if not using multiple accounts.",
+            "required": false,
+            "value": ""
+        },
+        "STRING_SESSION10": {
+            "description": "Telethon session string for the tenth user account. Leave empty if not using multiple accounts.",
+            "required": false,
+            "value": ""
+        }
+    }
+}
+
